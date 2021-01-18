@@ -238,7 +238,7 @@ version you are using, try the command ``which pip`` on the terminal.
 
 In the directory where your copy of astropy is type::
 
-    pip install -e .
+    pip install -e .[test]
 
 Several pages of output will follow the first time you do this; this wouldn't
 be a bad time to get a fresh cup of coffee. At the end of it you should see
